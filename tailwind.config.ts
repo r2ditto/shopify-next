@@ -12,6 +12,9 @@ const config: Config = {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      fontFamily: {
+        racing: ["var(--font-racing-sans-one)", "cursive"],
+      },
     },
   },
   plugins: [],
