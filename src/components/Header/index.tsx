@@ -7,15 +7,21 @@ import {
 
 export default function Header() {
   return (
-    <header className="flex justify-between border-b-[1px] border-solid border-foreground p-5">
-      <Bars3Icon className="size-7" />
+    <>
+      <header className="flex justify-between border-b-[1px] border-solid border-foreground p-5">
+        <Bars3Icon className="size-7" />
 
-      <h1>logo</h1>
+        <h1>logo</h1>
 
-      <div className="flex gap-5">
-        <UserIcon className="size-7" />
-        <ShoppingBagIcon className="size-7" />
-      </div>
-    </header>
+        <div className="flex gap-5">
+          <UserIcon className="size-7" />
+          <ShoppingBagIcon className="size-7" />
+        </div>
+      </header>
+
+      <section className="font-racing border-solid border-foreground text-center">
+        <h1 className="text-[250px]">SHOPIFYNEXT</h1>
+      </section>
+    </>
   );
 }
